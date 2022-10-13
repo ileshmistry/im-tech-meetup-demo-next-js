@@ -26,7 +26,7 @@ export default function Post({ post, morePosts = [], preview }) {
       <Container>
         <Header />
         {router.isFallback ? (
-          <PostTitle>Loading…</PostTitle>
+          <PostTitle>Loading...</PostTitle>
         ) : (
           <>
             <article className="mb-32">
